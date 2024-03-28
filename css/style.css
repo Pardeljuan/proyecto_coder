@@ -1,0 +1,54 @@
+/* Paleta de colores */
+:root{
+    --celeste : #00bdff;
+    --celesteClaro : #5de0e6;
+    --blanco: #ffffff;
+    --amarillo: #ffef00;
+
+    
+}
+    /* Estilos */
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+body {
+    background-color: var(--celeste);
+}
+/* .barra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+} */
+/* .header .barra .logo {
+    background-color: var(--celesteClaro);
+    padding: 1rem 0 2rem 0;
+    width: 150px;
+    height: 150px;
+        
+    
+} */
+.formulario {
+    display: grid;
+    border-color: black;
+}
+.copyright {
+    margin-top: 4rem;
+    color: var(--blanco);
+    text-align: center;
+}
+.header-inicio {
+    border-bottom:  2px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+    align-content: center;
+    flex-wrap: wrap;
+    
+
+}
