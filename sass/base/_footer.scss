@@ -1,0 +1,36 @@
+@import 'variables';
+
+.contenido {
+    h1 {
+        color: $blanco;
+    }
+    p {
+        text-align: center;
+        justify-content: center;
+        margin: 1rem 1rem;
+    }
+}
+
+footer{
+    padding: 1rem;
+    background-color: $azul;
+}
+
+footer div ul li  {
+    list-style: none;
+    display: flex;
+    &:hover{
+        background-color: white;
+        border-radius: 6rem; 
+        transition: 1s;
+    }   
+}
+footer div ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p {
+    text-align: center;
+    color: white;
+}

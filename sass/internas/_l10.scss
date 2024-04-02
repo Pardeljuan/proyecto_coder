@@ -1,0 +1,16 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    .contenido{
+        align-items: center;
+        justify-content: center;
+    }
+}
+.titulo {
+    text-align: center;
+}
+
+section div h1 {
+    color: black;
+    text-align: center;
+}

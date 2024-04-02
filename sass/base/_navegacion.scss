@@ -1,0 +1,25 @@
+.barra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.navegacion{
+    display: flex;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        margin: 1.5rem;
+
+        &:hover{
+            color: white;
+            padding: 0.5rem;
+            transition: 1s;
+        }
+    }
+}
