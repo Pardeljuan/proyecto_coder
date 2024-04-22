@@ -46,11 +46,21 @@ p {
         text-decoration: none;
         color: black;
         margin-bottom: 2rem;
+        font-size: 20px ;
+        font-family: Arial, Helvetica, sans-serif;
      }
 }
 a {
     &:hover {
         color: white;
         transition-duration: 1s;
+    }
+}
+@media  only screen and (max-width: 768px) {
+    .navegacion-footer {
+        display: block;
+        padding: 2rem 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 }

@@ -1,0 +1,23 @@
+.contenedor-videos {
+    iframe {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        @media only screen and (max-width:768px) {
+            max-width: 100%;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+    }
+}
+.contenido-inter {
+    p {
+        text-align: center;
+        padding: 2rem 2rem 2rem 2rem;
+        
+    }
+}
+.sub-titulo{
+    margin-bottom: 2rem;
+    text-align: center;
+    color: black(255, 110, 211);
+}

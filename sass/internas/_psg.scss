@@ -1,0 +1,9 @@
+.imagen-principal {
+    padding-top: 3rem;
+    @media only screen and (max-width: 768px) {
+        display: block;
+        max-width: 100%; 
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
