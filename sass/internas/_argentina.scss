@@ -1,0 +1,27 @@
+.imagen-principal{
+    margin-bottom: 5rem;
+}
+.titulo {
+    text-align: center;
+    color: $negro;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.texto-argentina {
+    padding-top: 2rem;
+    text-align: center;
+    justify-content: center; 
+}
+.contenedor-videos {
+    h3 {
+        background-color: $amarillo;
+        text-transform: uppercase;
+        padding:2rem 2rem;
+        
+    }
+    
+    display: block;
+    text-align: center;
+}

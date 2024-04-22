@@ -1,9 +1,10 @@
 @import 'variables';
 
 .header{
-    background-color: $azul;
+   /*  background-color: rgb(36, 36, 36); */
     padding: 1rem 0 1rem 0;
     height: 10rem;
+    border-bottom: 1px solid black;
     
     .barra{
         .logo{
@@ -12,3 +13,41 @@
         }
     }
 }
+
+@media only screen and (max-width: 768PX) {
+    .logo{
+        display: none;
+    }
+    .barra .navegacion{
+        display: block;
+        text-align: center;
+        
+    }
+    .contenedor {
+        padding: 0 20px;
+    }
+
+    .imagen-principal img, 
+    .contenido {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* @media only screen and (max-width:768px) {
+    .logo {
+        display: none;
+    }
+    .barra .navegacion{
+        display: block;
+        text-align: center;
+        
+    }
+    .imagen-principal img, 
+    .contenido {
+        width: 100%;
+        max-width: 100%;
+    }
+} */
+
+
