@@ -245,10 +245,14 @@ p h1 h2 h3 {
   display: block;
   text-align: center;
 }
-.contenedor-videos h3 {
+.contenedor-videos h2 {
   background-color: rgb(255, 255, 0);
   text-transform: uppercase;
   padding: 2rem 2rem;
+}
+
+.body-barcelona {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .titulo {
